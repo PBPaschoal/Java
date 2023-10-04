@@ -14,3 +14,5 @@ Desta vez, vou criar uma nova versão, aplicando meus novos conhecimentos, inclu
 * Este programa será atualizado constantemente à medida que eu continuar aprendendo.
 
 Vamos lá!
+
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Logo/java.png?raw=true" alt="Java" width="600px">
