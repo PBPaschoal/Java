@@ -4,15 +4,18 @@ Junho de 2023 - Esse repositório será para todos os meus atuais estudos sobre 
 
 ## Curso em andamento
 * Curso em vídeo - Java Básico | Professor: Gustavo Guanabara
-** Cursando Agosto 2023 
+  Cursando Agosto 2023 
 * Curso em vídeo - Java POO | Professor: Gustavo Guanabara
-** Próximo
+  Próximo
 * Udemy - Java COMPLETO 2023 Programação Orientada a Objetos +Projetos | Professor: Nelio Alves
-** Próximo
+  Cursando Agosto 2023 - até o momento
 
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20%20video%20Java%20Basico.JPG?raw=true" alt="Print aula Curso em video" width="400px">
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20Video%20Java%20POO.JPG?raw=true" alt="Print aula Curso em video" width="400px">
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Udemy%20Java%20Completo%20Nelio%20Alves.JPG?raw=true" alt="Print aula Udemy" width="400px">
+##### Observação:
+No momento estou estudando também o curso de [Ciência da Computação - Harvard](https://github.com/PBPaschoal/Ciencia-da-Computacao), por um pouca da demora nos outros cursos.
+
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20%20video%20Java%20Basico.JPG?raw=true" alt="Print aula Curso em video" width="200px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20Video%20Java%20POO.JPG?raw=true" alt="Print aula Curso em video" width="200px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Udemy%20Java%20Completo%20Nelio%20Alves.JPG?raw=true" alt="Print aula Udemy" width="200px">
 
 # Projetos
 * Nessa pasta você irá encontrar os meus projetos pessoais, onde desenvolvo sozinho e vou melhorando (atualizando) os programas conforme o meu aprendizado vai avançando.
@@ -41,7 +44,7 @@ Quinta versão:
 ## Outro:
 * Código Limpo Habilidades Práticas do Agile Software Edição Revisada | Autor: Robert C. Martin 
 
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Algoritmos-Estruturas-Dados.jpg?raw=true" alt="Livro que estou lendo" width="400px">
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Algoritmos.jpg?raw=true" alt="Livro que estou lendo" width="400px">
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Java-Guia.jpg?raw=true" alt="Livro que estou lendo" width="400px">
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Codigo-Limpo.jpg?raw=true" alt="Livro que estou lendo" width="400px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Algoritmos-Estruturas-Dados.jpg?raw=true" alt="Livro que estou lendo" width="300px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Algoritmos.jpg?raw=true" alt="Livro que estou lendo" width="300px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Java-Guia.jpg?raw=true" alt="Livro que estou lendo" width="300px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Codigo-Limpo.jpg?raw=true" alt="Livro que estou lendo" width="300px">
