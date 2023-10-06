@@ -11,7 +11,7 @@ Junho de 2023 - Esse repositório será para todos os meus atuais estudos sobre 
   Cursando Agosto 2023 - até o momento
 
 ##### Observação:
-No momento estou estudando também o curso de [Ciência da Computação - Harvard](https://github.com/PBPaschoal/Ciencia-da-Computacao), por um pouca da demora nos outros cursos.
+No momento estou estudando também o curso de [Ciência da Computação - Harvard](https://github.com/PBPaschoal/Ciencia-da-Computacao). E por isso estou demorando um pouco nos outros cursos/livros.
 
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20%20video%20Java%20Basico.JPG?raw=true" alt="Print aula Curso em video" width="200px">
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20Video%20Java%20POO.JPG?raw=true" alt="Print aula Curso em video" width="200px">
