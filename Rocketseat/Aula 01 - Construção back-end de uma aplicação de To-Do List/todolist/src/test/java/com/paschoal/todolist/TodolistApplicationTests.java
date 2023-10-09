@@ -1,10 +1,10 @@
-package com.pbpaschoal.todolist;
+package com.paschoal.todolist;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GerenciadorDeTarefasApplicationTests {
+class TodolistApplicationTests {
 
 	@Test
 	void contextLoads() {

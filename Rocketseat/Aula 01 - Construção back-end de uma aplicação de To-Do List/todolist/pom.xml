@@ -8,15 +8,21 @@
 		<version>3.0.11</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pbpaschoal</groupId>
+	<groupId>com.paschoal</groupId>
 	<artifactId>todolist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Gerenciador de tarefas</name>
-	<description>Demo project for Spring Boot</description>
+	<name>todolist</name>
+	<description>Gerenciador de tarefas</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
