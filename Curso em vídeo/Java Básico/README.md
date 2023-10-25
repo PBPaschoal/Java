@@ -1,4 +1,5 @@
 # Java Básico [40 Horas]
+#### Observação: Alguns códigos estão atribuídos a @author Bruna Sene porque foram desenvolvidos usando o HD da minha esposa em uma outra máquina, emprestada.
 
 ## Aula 01 - História do Java
 * Exercícios de Java 01
