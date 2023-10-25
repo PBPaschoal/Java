@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="OlaMundoJavaFX.jnlp">
+  <information>
+    <title>OlaMundoJavaFX</title>
+    <vendor>Bruna Sene</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="OlaMundoJavaFX.jar" size="2736" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="olamundojavafx.OlaMundoJavaFX"  name="OlaMundoJavaFX" />
+  <update check="always"/>
+</jnlp>
