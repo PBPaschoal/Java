@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 /**
- * @author Bruna Sene
+ * @author PBPaschoal
  */
 public class TiposPrimitivos {
     
