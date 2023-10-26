@@ -19,6 +19,10 @@
 
 ## Aula 07 - Operadores Aritméticos e Classe Math
 * Exercícios de Java 07
+
+<img src="https://github.com/PBPaschoal/Java/blob/main/Curso%20em%20v%C3%ADdeo/Java%20B%C3%A1sico/Fotos/Aula%2007%20-%2001.png?raw=true" alt="Print aula Curso em video" width="500px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Curso%20em%20v%C3%ADdeo/Java%20B%C3%A1sico/Fotos/Aula%2007%20-%2002.png?raw=true" alt="Print aula Curso em video" width="500px">
+
 ## Aula 08 - Operadores Lógicos e Relacionais
 * Exercícios de Java 08
 ## Aula 09 - Estruturas Condicionais (Parte 1)
