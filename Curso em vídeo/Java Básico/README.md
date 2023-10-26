@@ -14,6 +14,9 @@
 * Exercícios de Java 05
 ## Aula 06 - Tipos Primitivos e Manipulação de Dados
 * Exercícios de Java 06
+  
+<img src="https://github.com/PBPaschoal/Java/blob/main/Curso%20em%20v%C3%ADdeo/Java%20B%C3%A1sico/Fotos/Exercicio%2006.jpeg?raw=true" alt="Print aula Curso em video" width="500px">
+
 ## Aula 07 - Operadores Aritméticos e Classe Math
 * Exercícios de Java 07
 ## Aula 08 - Operadores Lógicos e Relacionais
