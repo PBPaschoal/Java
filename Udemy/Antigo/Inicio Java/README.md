@@ -3,8 +3,6 @@ Iniciando os estudos em Java.
 * OBS: Como são exercícios básicos ao avançado, estou colocando todos nesse mesmo repositório. Projetos mais complexos farei um novo.
 
 # Sobre o projeto: ConsigConsulta.java
-[O projeto](https://github.com/PBPaschoal/BeginsJava/blob/master/ConsigConsulta.java) foi atualziado em 16-07-2020. 
-Trata-se de simulador de empréstimo consignado que desenvolvi primeiro em [C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/NovaVersaoProgrammingConsig), [Java](https://github.com/PBPaschoal/BeginsJava/blob/master/ConsigConsulta.java) e depois [C#](https://github.com/PBPaschoal/Inicio-CSharp/blob/master/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
 * O programa é bem simples e intuitivo, fácil de entender:
   * Primeiro você deve escolher um órgão publico;
   * Depois informar qual tipo de operação deseja;
@@ -23,13 +21,13 @@ Segunda versão:
 [C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/NovaVersaoProgrammingConsig)
 
 Terceira versão: 
-[Java](https://github.com/PBPaschoal/BeginsJava/blob/master/ConsigConsulta.java)
+[Java](https://github.com/PBPaschoal/Java/blob/main/Udemy/Antigo/Inicio%20Java/ConsigConsulta.java)
 
 Quarta versão:
-[C#](https://github.com/PBPaschoal/AprendendoCSharp/blob/master/ConsigConsulta.cs)
+[C#](https://github.com/PBPaschoal/CSharp/blob/main/B%C3%A1sico/ConsigConsulta.cs)
 
 Quinta versão: 
-[C#](https://github.com/PBPaschoal/AprendendoCSharp/blob/master/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
+[C#](https://github.com/PBPaschoal/CSharp/blob/main/B%C3%A1sico/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
 
 ## Sobre esse repositório:
  Estarei colocando vários arquivos (projetos) nesse mesmo repositório, pois se tratam de exercícios, coisas básicas para os estudos.
