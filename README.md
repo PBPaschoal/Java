@@ -29,13 +29,13 @@ Segunda versão:
 [C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/NovaVersaoProgrammingConsig)
 
 Terceira versão: 
-[Java](https://github.com/PBPaschoal/BeginsJava/blob/master/ConsigConsulta.java)
+[Java](https://github.com/PBPaschoal/Java/blob/main/Udemy/Antigo/Inicio%20Java/ConsigConsulta.java)
 
 Quarta versão:
-[C#](https://github.com/PBPaschoal/AprendendoCSharp/blob/master/ConsigConsulta.cs)
+[C#](https://github.com/PBPaschoal/CSharp/blob/main/B%C3%A1sico/ConsigConsulta.cs)
 
 Quinta versão: 
-[C#](https://github.com/PBPaschoal/AprendendoCSharp/blob/master/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
+[C#](https://github.com/PBPaschoal/CSharp/blob/main/B%C3%A1sico/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
 
 # Livros (Estudando Java):
 * ALGORITMOS E ESTRUTURAS DE DADOS 17º TIRAGEM | Autores: Guimarães & Lages
