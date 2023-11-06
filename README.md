@@ -37,14 +37,23 @@ Quarta versão:
 Quinta versão: 
 [C#](https://github.com/PBPaschoal/CSharp/blob/main/B%C3%A1sico/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
 
-# Livros (Estudando Java):
-* ALGORITMOS E ESTRUTURAS DE DADOS 17º TIRAGEM | Autores: Guimarães & Lages
-* ALGORITMOS Lógica para Desenvolvimento de Programação de Computadores 29º EDIÇÃO | Autores: Jose Augusto e Jayr Figueiredo;
-* JAVA GUIA DO PROGRAMADOR 3º Edição| Autor: Peter Jandl Junior;
-## Outro:
-* Código Limpo Habilidades Práticas do Agile Software Edição Revisada | Autor: Robert C. Martin 
+#### Conta | Versões:
+###### Primeira versão 06/11/2023:
+[Java](https://github.com/PBPaschoal/Java/tree/main/Udemy/Java%20COMPLETO%202023%20POO/Se%C3%A7%C3%A3o%209%20-%20Construtores%2C%20palavra%20this%2C%20sobrecarga%2C%20encapsulamento/Aula%2081%2C%2082%20e%2083%20-%20Exerc%C3%ADcio%20de%20fixa%C3%A7%C3%A3o/Aula%2081%20-%20Refazendo%20exercicio/src)
 
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Algoritmos-Estruturas-Dados.jpg?raw=true" alt="Livro que estou lendo" width="300px">
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Algoritmos.jpg?raw=true" alt="Livro que estou lendo" width="300px">
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Java-Guia.jpg?raw=true" alt="Livro que estou lendo" width="300px">
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Codigo-Limpo.jpg?raw=true" alt="Livro que estou lendo" width="300px">
+*  Um exercício simples que envolve instanciação, encapsulamento e construtor.
+* Este é um exercício que planejo aprimorar à medida que minhas habilidades melhorarem. Pretendo adicioná-lo com uma interface gráfica e mais detalhes, opções, funções, entre outros. Fique de :eyes:
+
+
+# Leituras (Estudando Java):
+* Documentação Java: [Oracle](https://docs.oracle.com/en/java/)
+* Livro: ALGORITMOS E ESTRUTURAS DE DADOS 17º TIRAGEM | Autores: Guimarães & Lages
+* Livro: ALGORITMOS Lógica para Desenvolvimento de Programação de Computadores 29º EDIÇÃO | Autores: Jose Augusto e Jayr Figueiredo;
+* Livro: JAVA GUIA DO PROGRAMADOR 3º Edição| Autor: Peter Jandl Junior;
+## Outro:
+* Livro: Código Limpo Habilidades Práticas do Agile Software Edição Revisada | Autor: Robert C. Martin 
+
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Algoritmos-Estruturas-Dados.jpg?raw=true" alt="Livro que estou lendo" width="250px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Algoritmos.jpg?raw=true" alt="Livro que estou lendo" width="250px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Java-Guia.jpg?raw=true" alt="Livro que estou lendo" width="250px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Livros/Codigo-Limpo.jpg?raw=true" alt="Livro que estou lendo" width="250px">
