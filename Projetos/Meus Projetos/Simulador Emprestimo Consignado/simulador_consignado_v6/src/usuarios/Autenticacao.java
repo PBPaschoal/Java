@@ -9,18 +9,12 @@ public class Autenticacao {
 	private String senha;
 	private String repetirUsuario;
 	private String repetirSenha;
+	private byte erros;
 	
 	public Autenticacao(Scanner scanner) {
         this.keyboard = scanner;
+        this.erros = 0;
     }
-	
-	/*public Autenticacao() {
-		this.nome = nome;
-		this.usuario = usuario;
-		this.senha = senha;
-		this.repetirUsuario = repetirUsuario;
-		this.repetirSenha = repetirSenha;
-	}*/
 	
 	public void cadastroInicial() {
 		System.out.println("___________________________");
@@ -31,7 +25,7 @@ public class Autenticacao {
 		usuario = keyboard.nextLine();
 		System.out.print("SENHA: ");
 		senha = keyboard.nextLine();
-		System.out.println(":::::::::::::::::::::::::::");
+		System.out.println("\n:::::::::::::::::::::::::::");
 		System.out.println("  CADASTRADO COM SUCESSO!  ");
 		System.out.println(":::::::::::::::::::::::::::");
 		System.out.println("___________________________");
@@ -42,19 +36,35 @@ public class Autenticacao {
 		repetirUsuario = keyboard.nextLine();
 		System.out.print("SENHA: ");
 		repetirSenha = keyboard.nextLine();
-		if(!repetirUsuario.equals(usuario) || !repetirSenha.equals(senha)) {
-			do {
+		
+		while (!repetirUsuario.equals(usuario) || !repetirSenha.equals(senha)) {
+			erros++;
+			System.out.println(":::::::::::::::::::::::::::");
+			System.out.println("  DADOS INVALIDOS!  ");
+			System.out.println(":::::::::::::::::::::::::::");
+			System.out.println("INFORME OS DADOS CORRETOS: ");
+			System.out.print("USUARIO: ");
+			repetirUsuario = keyboard.nextLine();
+			System.out.print("SENHA: ");
+			repetirSenha = keyboard.nextLine();
+			
+			if (erros >= 3) {
+				System.out.println("\n\n:::::::::::::::::::::::::::");
+				System.out.println("MAXIMO DE ERROS ATINGIDO!");
+				System.out.println("CADASTRAR NOVAMENTE");
 				System.out.println(":::::::::::::::::::::::::::");
-				System.out.println("  DADOS INVALIDOS!  ");
-				System.out.println(":::::::::::::::::::::::::::");
-				System.out.println("INFORME OS DADOS CORRETOS: ");
-				System.out.print("USUARIO: ");
-				repetirUsuario = keyboard.nextLine();
-				System.out.print("SENHA: ");
-				repetirSenha = keyboard.nextLine();
-			} while(!repetirUsuario.equals(usuario) || !repetirSenha.equals(senha));
+				System.out.println("___________________________");
+				reiniciarCadastro();
+				return;
+			}
 		}
+		
 		System.out.println(":::::::::::::::::::::::::::");
 		System.out.println(nome + ", VOCE LOGOU COM SUCESSO!");
+	}
+	
+	public void reiniciarCadastro() {
+		cadastroInicial();
+		erros = 0; 
 	}
 }
