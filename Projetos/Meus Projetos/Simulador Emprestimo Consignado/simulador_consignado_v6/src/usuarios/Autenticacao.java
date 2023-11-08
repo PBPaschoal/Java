@@ -29,6 +29,11 @@ public class Autenticacao {
 		System.out.println("  CADASTRADO COM SUCESSO!  ");
 		System.out.println(":::::::::::::::::::::::::::");
 		System.out.println("___________________________");
+		if(erros >= 2) {
+			System.out.println("\n::::: ACESSAR SISTEMA :::::");
+			acessarSistema();
+			erros = 0;
+		}
 	}
 	
 	public void acessarSistema() {
@@ -36,10 +41,9 @@ public class Autenticacao {
 		repetirUsuario = keyboard.nextLine();
 		System.out.print("SENHA: ");
 		repetirSenha = keyboard.nextLine();
-		
 		while (!repetirUsuario.equals(usuario) || !repetirSenha.equals(senha)) {
 			erros++;
-			System.out.println(":::::::::::::::::::::::::::");
+			System.out.println("\n:::::::::::::::::::::::::::");
 			System.out.println("  DADOS INVALIDOS!  ");
 			System.out.println(":::::::::::::::::::::::::::");
 			System.out.println("INFORME OS DADOS CORRETOS: ");
@@ -47,14 +51,13 @@ public class Autenticacao {
 			repetirUsuario = keyboard.nextLine();
 			System.out.print("SENHA: ");
 			repetirSenha = keyboard.nextLine();
-			
-			if (erros >= 3) {
+			if (erros > 2) {
 				System.out.println("\n\n:::::::::::::::::::::::::::");
 				System.out.println("MAXIMO DE ERROS ATINGIDO!");
 				System.out.println("CADASTRAR NOVAMENTE");
 				System.out.println(":::::::::::::::::::::::::::");
 				System.out.println("___________________________");
-				reiniciarCadastro();
+				cadastroInicial();
 				return;
 			}
 		}
@@ -63,8 +66,7 @@ public class Autenticacao {
 		System.out.println(nome + ", VOCE LOGOU COM SUCESSO!");
 	}
 	
-	public void reiniciarCadastro() {
-		cadastroInicial();
-		erros = 0; 
-	}
+	/*public void reiniciarCadastro() {
+		cadastroInicial(); 
+	}*/
 }
