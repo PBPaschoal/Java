@@ -1,8 +1,9 @@
 package usuarios;
+
 import java.util.Scanner;
 
 public class Autenticacao {
-	
+
 	private Scanner keyboard;
 	private String nome;
 	private String usuario;
@@ -10,12 +11,12 @@ public class Autenticacao {
 	private String repetirUsuario;
 	private String repetirSenha;
 	private byte erros;
-	
+
 	public Autenticacao(Scanner scanner) {
-        this.keyboard = scanner;
-        this.erros = 0;
-    }
-	
+		this.keyboard = scanner;
+		this.erros = 0;
+	}
+
 	public void cadastroInicial() {
 		System.out.println("___________________________");
 		System.out.println(":::::::::::::::::::::::::::");
@@ -29,13 +30,13 @@ public class Autenticacao {
 		System.out.println("  CADASTRADO COM SUCESSO!  ");
 		System.out.println(":::::::::::::::::::::::::::");
 		System.out.println("___________________________");
-		if(erros >= 2) {
+		if (erros >= 2) {
 			System.out.println("\n::::: ACESSAR SISTEMA :::::");
 			acessarSistema();
 			erros = 0;
 		}
 	}
-	
+
 	public void acessarSistema() {
 		System.out.print("USUARIO: ");
 		repetirUsuario = keyboard.nextLine();
@@ -61,12 +62,13 @@ public class Autenticacao {
 				return;
 			}
 		}
-		
-		System.out.println(":::::::::::::::::::::::::::");
-		System.out.println(nome + ", VOCE LOGOU COM SUCESSO!");
+
+		System.out.println("\n:::::::::::::::::::::::::::");
+		nome = nome.toUpperCase();
+		System.out.println("OLA " + nome + ", VOCE LOGOU COM SUCESSO!");
 	}
-	
-	/*public void reiniciarCadastro() {
-		cadastroInicial(); 
-	}*/
+
+	/*
+	 * public void reiniciarCadastro() { cadastroInicial(); }
+	 */
 }

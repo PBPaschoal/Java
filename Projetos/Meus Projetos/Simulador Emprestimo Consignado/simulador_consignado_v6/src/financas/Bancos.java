@@ -3,30 +3,63 @@ package financas;
 import java.util.Scanner;
 
 public class Bancos {
-	
+
 	private Scanner keyboard;
 	public byte limiteDeIdade;
-	private byte prazo;
+	private int escolha;
 	private int porcentagemComissao;
-	private double parcela;
-	private double valorBruto;
-	private double valorLiquido;
-	private double valorDoSaldoDevedor;
 	private double comissao;
-	
-	public Bancos(Scanner keyboard, byte limiteDeIdade, byte prazo, int porcentagemComissao, double parcela,
-			double valorBruto, double valorLiquido, double valorDoSaldoDevedor, double comissao) {
+
+	public Bancos(Scanner keyboard, byte limiteDeIdade, int escolha, int porcentagemComissao, double comissao) {
 		this.keyboard = keyboard;
 		this.limiteDeIdade = limiteDeIdade;
-		this.prazo = prazo;
+		this.escolha = escolha;
 		this.porcentagemComissao = porcentagemComissao;
-		this.parcela = parcela;
-		this.valorBruto = valorBruto;
-		this.valorLiquido = valorLiquido;
-		this.valorDoSaldoDevedor = valorDoSaldoDevedor;
 		this.comissao = comissao;
 	}
+
+	public Bancos() {
+		limiteDeIdade = 0;
+		escolha = 0;
+		porcentagemComissao = 0;
+		comissao = 0.0;
+	}
+
+	public void bancoBradesco() {
+		comissao = 1.0;
+		limiteDeIdade = 65;
+		System.out.println("Bradesco");
+	}
+
+	public void bancoItau() {
+		comissao = 4.0;
+		limiteDeIdade = 74;
+		System.out.println("Itau");
+	}
 	
+	public void bancoDaycoval() {
+		comissao = 3.5;
+		limiteDeIdade = 75;
+		System.out.println("Daycoval");
+	}
+	
+	public void bancoOle() {
+		comissao = 2.8;
+		limiteDeIdade = 73;
+		System.out.println("Ole");
+	}
+	
+	public void bancoBMG() {
+		comissao = 4.5;
+		limiteDeIdade = 74;
+		System.out.println("BMG");
+	}
+	
+	public void bancoPAN() {
+		comissao = 4.0;
+		limiteDeIdade = 75;
+		System.out.println("PAN");
+	}
 	
 	
 
