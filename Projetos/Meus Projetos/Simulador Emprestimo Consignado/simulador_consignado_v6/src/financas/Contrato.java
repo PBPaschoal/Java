@@ -44,13 +44,13 @@ public class Contrato {
 		System.out.println("Informe os dados abaixo:");
 		System.out.print("NOME DO CLIENTE: ");
 		
-		System.out.print("CPF DO CLIENTE: ");
+		System.out.print("\nCPF DO CLIENTE: ");
 		keyboard.nextLine();
-		System.out.println("IDADE: ");
+		System.out.println("\nIDADE: ");
 		keyboard.nextLine();
-		System.out.print("SEXO: ");
+		System.out.print("\nSEXO: ");
 		keyboard.nextLine();
-		System.out.println("PRAZO: ");
+		System.out.println("\nPRAZO: ");
 		keyboard.nextLine();
 	}
 	

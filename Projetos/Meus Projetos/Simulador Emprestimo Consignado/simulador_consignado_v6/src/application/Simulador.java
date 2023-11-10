@@ -29,8 +29,8 @@ public class Simulador {
 
 		autenticacao.acessarSistema();
 
-		int opcaoInvaida = 0;
-		for (int i = 0; i <= opcaoInvaida; i++) {
+		int opcaoInvalida = 0;
+		for (int i = 0; i <= opcaoInvalida; i++) {
 			System.out.println("\n:::::::::::::::::::::::::::");
 			System.out.println(":::::::::: BANCO ::::::::::");
 			System.out.println(":::::::::::::::::::::::::::");
@@ -66,11 +66,11 @@ public class Simulador {
 				System.out.println("\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 				System.out.println("Opcao invalida! Informe uma opcao valida:");
 				System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n");
-				opcaoInvaida++;
+				opcaoInvalida++;
 			}
 		}
 
-		for (int i = 0; i <= opcaoInvaida; i++) {
+		for (int i = 0; i <= opcaoInvalida; i++) {
 			System.out.println("\n:::::::::::::::::::::::::::");
 			System.out.println(":::::::::: OPERACAO ::::::::::");
 			System.out.println(":::::::::::::::::::::::::::");
@@ -92,7 +92,7 @@ public class Simulador {
 				System.out.println("\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
 				System.out.println("Opcao invalida! Informe uma opcao valida:");
 				System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n");
-				opcaoInvaida++;
+				opcaoInvalida++;
 			}
 		}
 
