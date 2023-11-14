@@ -58,9 +58,11 @@ public class Contrato {
 		if (resposta == 1) {
 			System.out.print("PARCELA: R$ ");
 			parcela = keyboard.nextDouble();
+			valorLiquido = parcela / fator;
 		} else {
 			System.out.print("VALOR LIBERADO: R$ ");
 			valorLiquido = keyboard.nextDouble();
+			parcela = valorLiquido * fator;
 		}
 		DadosDoCliente();
 		operacao = 1;
@@ -78,15 +80,13 @@ public class Contrato {
 		operacao = 2;
 	}
 
-	public double CalcularContratoNovo() {
+	/*public double CalcularContratoNovo() {
 		if(resposta == 1) {
-			valorLiquido = parcela / fator;
-			return valorLiquido;
+			return valorLiquido = parcela / fator;
 		} else {
-			parcela = valorLiquido * fator;
-			return parcela;
-		}
-	}
+			return parcela = valorLiquido * fator;
+		} 
+	}*/
 
 	public double CalcularContratoRefinanciamento() {
 		return valorLiquido = parcela / fator - valorSaldoDevedor;
@@ -104,12 +104,13 @@ public class Contrato {
 		System.out.println("IDADE DO CLIENTE: " + idadeCliente);
 		System.out.println("SEXO DO CLIENTE: " + sexoCliente);
 		System.out.println("PRAZO DO CONTRATO: " + getPrazo());
-		System.out.println(String.format("PARCELA R$%.2f", getParcela()));
 		if (operacao == 1) {
-			System.out.println(String.format("> VALOR LIBERADO: R$%.2f", CalcularContratoNovo()));
+			System.out.println(String.format("PARCELA R$%.2f", parcela));
+			System.out.println(String.format("> VALOR LIBERADO: R$%.2f", valorLiquido));
 		}
 
 		else {
+			System.out.println(String.format("PARCELA R$%.2f", getParcela()));
 			System.out.println(String.format("> VALOR LIBERADO: R$%.2f", CalcularContratoRefinanciamento()));
 		}
 		System.out.println("\n..........................................");
