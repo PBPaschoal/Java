@@ -32,37 +32,37 @@ public class Bancos {
 	public void bancoBradesco() {
 		comissao = 1.0;
 		limiteDeIdade = 72;
-		System.out.println("\n Voce selecionou: Banco Bradesco");
+		System.out.println("\n[VOCE SELECIONOU O BANCO BRADESCO]");
 	}
 
 	public void bancoItau() {
 		comissao = 4.0;
 		limiteDeIdade = 74;
-		System.out.println("\n Voce selecionou: Banco Itau");
+		System.out.println("\n[VOCE SELECIONOU O BANCO ITAU");
 	}
 	
 	public void bancoDaycoval() {
 		comissao = 3.5;
 		limiteDeIdade = 75;
-		System.out.println("\n Voce selecionou: Banco Daycoval");
+		System.out.println("\n[VOCE SELECIONOU O BANCO DAYCOVAL");
 	}
 	
 	public void bancoOle() {
 		comissao = 2.8;
 		limiteDeIdade = 73;
-		System.out.println("\n Voce selecionou: Banco Ole");
+		System.out.println("\n[VOCE SELECIONOU O BANCO OLE");
 	}
 	
 	public void bancoBMG() {
 		comissao = 4.5;
 		limiteDeIdade = 74;
-		System.out.println("\n Voce selecionou: Banco BMG");
+		System.out.println("\n[VOCE SELECIONOU O BANCO BMG");
 	}
 	
 	public void bancoPAN() {
 		comissao = 4.0;
 		limiteDeIdade = 75;
-		System.out.println("\n Voce selecionou: Banco PAN");
+		System.out.println("\n[VOCE SELECIONOU O BANCO PAN");
 	}
 	
 	

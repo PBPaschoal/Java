@@ -28,6 +28,10 @@ public class Contrato {
 	public byte getPrazo() {
 		return prazo;
 	}
+	
+	public double getValorLiquido() {
+		return valorLiquido;
+	}
 
 	public void DadosDoCliente() {
 		System.out.println("\n:::::::::::::::::::::::::::::::");
@@ -105,12 +109,12 @@ public class Contrato {
 		System.out.println("SEXO DO CLIENTE: " + sexoCliente);
 		System.out.println("PRAZO DO CONTRATO: " + getPrazo());
 		if (operacao == 1) {
-			System.out.println(String.format("PARCELA R$%.2f", parcela));
-			System.out.println(String.format("> VALOR LIBERADO: R$%.2f", valorLiquido));
+			System.out.println(String.format("> PARCELA R$%.2f", getParcela()));
+			System.out.println(String.format("> VALOR LIBERADO: R$%.2f", getValorLiquido()));
 		}
 
 		else {
-			System.out.println(String.format("PARCELA R$%.2f", getParcela()));
+			System.out.println(String.format("> PARCELA R$%.2f", getParcela()));
 			System.out.println(String.format("> VALOR LIBERADO: R$%.2f", CalcularContratoRefinanciamento()));
 		}
 		System.out.println("\n..........................................");
