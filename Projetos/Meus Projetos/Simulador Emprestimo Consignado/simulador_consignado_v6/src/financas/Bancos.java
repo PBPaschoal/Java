@@ -24,41 +24,45 @@ public class Bancos {
 		porcentagemComissao = 0;
 		comissao = 0.0;
 	}
+	
+	public byte getLimiteDeIdade() {
+		return limiteDeIdade;
+	}
 
 	public void bancoBradesco() {
 		comissao = 1.0;
-		limiteDeIdade = 65;
-		System.out.println("Bradesco");
+		limiteDeIdade = 72;
+		System.out.println("\n Voce selecionou: Banco Bradesco");
 	}
 
 	public void bancoItau() {
 		comissao = 4.0;
 		limiteDeIdade = 74;
-		System.out.println("Itau");
+		System.out.println("\n Voce selecionou: Banco Itau");
 	}
 	
 	public void bancoDaycoval() {
 		comissao = 3.5;
 		limiteDeIdade = 75;
-		System.out.println("Daycoval");
+		System.out.println("\n Voce selecionou: Banco Daycoval");
 	}
 	
 	public void bancoOle() {
 		comissao = 2.8;
 		limiteDeIdade = 73;
-		System.out.println("Ole");
+		System.out.println("\n Voce selecionou: Banco Ole");
 	}
 	
 	public void bancoBMG() {
 		comissao = 4.5;
 		limiteDeIdade = 74;
-		System.out.println("BMG");
+		System.out.println("\n Voce selecionou: Banco BMG");
 	}
 	
 	public void bancoPAN() {
 		comissao = 4.0;
 		limiteDeIdade = 75;
-		System.out.println("PAN");
+		System.out.println("\n Voce selecionou: Banco PAN");
 	}
 	
 	

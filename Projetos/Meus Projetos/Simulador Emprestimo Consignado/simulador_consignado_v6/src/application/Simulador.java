@@ -15,7 +15,7 @@ public class Simulador {
 
 		Autenticacao autenticacao = new Autenticacao(keyboard);
 		Bancos bancos = new Bancos();
-		Contrato contrato = new Contrato(keyboard, 0, 0, 0, 0);
+		Contrato contrato = new Contrato(keyboard);
 
 		System.out.println(":::::::::::::::::::::::::::");
 		System.out.println(":::::( CADASTRAMENTO ):::::");
@@ -41,6 +41,7 @@ public class Simulador {
 			System.out.println("[4] BANCO OLE");
 			System.out.println("[5] BANCO BMG");
 			System.out.println("[6] BANCO PAN");
+			System.out.print("\nAguardando entrada de dados - ");
 			byte escolha = keyboard.nextByte();
 
 			switch (escolha) {
@@ -63,9 +64,9 @@ public class Simulador {
 				bancos.bancoPAN();
 				break;
 			default:
-				System.out.println("\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-				System.out.println("Opcao invalida! Informe uma opcao valida:");
-				System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n");
+				System.out.println("\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+				System.out.println("[ Opcao invalida! Informe uma opcao valida ]");
+				System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n");
 				opcaoInvalida++;
 			}
 		}
@@ -77,21 +78,20 @@ public class Simulador {
 			System.out.println("ESCOLHA O TIPO DE OPERACAO QUE DESEJA SIMULAR:");
 			System.out.println("[1] EMPRESTIMO NOVO");
 			System.out.println("[2] REFINANCIAMENTO DE DIVIDA");
+			System.out.print("\nAguardando entrada de dados - ");
 			byte escolha = keyboard.nextByte();
 			
 			switch (escolha) {
 			case 1:
-				contrato.DadosDoCliente();
 				contrato.ContratoNovo();
 				break;
 			case 2:
-				contrato.DadosDoCliente();
 				contrato.ContratoDeRefinanciamento();
 				break;
 			default:
-				System.out.println("\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-				System.out.println("Opcao invalida! Informe uma opcao valida:");
-				System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n");
+				System.out.println("\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+				System.out.println("[ Opcao invalida! Informe uma opcao valida ]");
+				System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\n");
 				opcaoInvalida++;
 			}
 		}
