@@ -4,14 +4,20 @@ Junho de 2023 - Esse repositório será para todos os meus atuais estudos sobre 
 
 ## Curso em andamento
 * Curso em vídeo - Java Básico | Professor: Gustavo Guanabara
-  Cursando Agosto 2023 
+  Cursando Setembro 2023 
 * Curso em vídeo - Java POO | Professor: Gustavo Guanabara
   Próximo
 * Udemy - Java COMPLETO 2023 Programação Orientada a Objetos +Projetos | Professor: Nelio Alves
   Cursando Agosto 2023 - até o momento
 
 ##### Observação:
-No momento estou estudando também o curso de [Ciência da Computação - Harvard](https://github.com/PBPaschoal/Ciencia-da-Computacao). E por isso estou demorando um pouco nos outros cursos/livros.
+* No momento estou estudando também o curso de [Ciência da Computação - Harvard](https://github.com/PBPaschoal/Ciencia-da-Computacao). 
+* Java Básico
+* Java POO
+* Modelagem de Dados UML (Análise & Projeto Orientado a Objetos)
+* O curso completo de Banco de Dados SQL
+* Inglês Extremo
+E por isso estou demorando um pouco nos outros cursos/livros.
 
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20%20video%20Java%20Basico.JPG?raw=true" alt="Print aula Curso em video" width="200px">
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20Video%20Java%20POO.JPG?raw=true" alt="Print aula Curso em video" width="200px">
@@ -22,6 +28,8 @@ No momento estou estudando também o curso de [Ciência da Computação - Harvar
 * Um exemplo que irei começar, é a versão de um programa antigo que eu fiz anos atrás e agora irei refazer incluindo encapsulamento, a palavra this, construtores, sobrecarga etc...
 * Segue abaixo as antigas versões do programa mencionado:
 #### Simulador de empréstimo consignado | Versões:
+* Sem POO
+
 Primeira versão:
 [C++](https://github.com/PBPaschoal/BeginsCmaismais/blob/master/ProgrammingConsig.cpp)
 
@@ -36,6 +44,11 @@ Quarta versão:
 
 Quinta versão: 
 [C#](https://github.com/PBPaschoal/CSharp/blob/main/B%C3%A1sico/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
+
+Sexta versão - em desenvolvimento: 
+* Com POO [Java](https://github.com/PBPaschoal/Java/tree/main/Projetos/Meus%20Projetos/Simulador%20Emprestimo%20Consignado)
+
+#
 
 #### Conta | Versões:
 ###### Primeira versão 06/11/2023:
