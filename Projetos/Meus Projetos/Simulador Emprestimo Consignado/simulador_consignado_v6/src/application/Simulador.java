@@ -3,7 +3,6 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import financas.Bancos;
 import financas.Contrato;
 import usuarios.Autenticacao;
 
@@ -14,7 +13,6 @@ public class Simulador {
 		Scanner keyboard = new Scanner(System.in);
 
 		Autenticacao autenticacao = new Autenticacao(keyboard);
-		Bancos bancos = new Bancos();
 		Contrato contrato = new Contrato(keyboard);
 
 		System.out.println(":::::::::::::::::::::::::::");
@@ -46,22 +44,22 @@ public class Simulador {
 
 			switch (escolha) {
 			case 1:
-				bancos.bancoBradesco();
+				contrato.bancoBradesco();
 				break;
 			case 2:
-				bancos.bancoItau();
+				contrato.bancoItau();
 				break;
 			case 3:
-				bancos.bancoDaycoval();
+				contrato.bancoDaycoval();
 				break;
 			case 4:
-				bancos.bancoOle();
+				contrato.bancoOle();
 				break;
 			case 5:
-				bancos.bancoBMG();
+				contrato.bancoBMG();
 				break;
 			case 6:
-				bancos.bancoPAN();
+				contrato.bancoPAN();
 				break;
 			default:
 				System.out.println("\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");

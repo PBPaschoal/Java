@@ -9,6 +9,9 @@ public class Contrato {
 	private byte operacao;
 	public byte resposta = 0;
 	private byte prazo;
+	public byte limiteDeIdade;
+	private double porcentagemComissao;
+	private double comissao;
 	private double parcela;
 	private double valorLiquido;
 	private double valorSaldoDevedor;
@@ -32,6 +35,49 @@ public class Contrato {
 	public double getValorLiquido() {
 		return valorLiquido;
 	}
+	
+	public void bancoBradesco() {
+		porcentagemComissao = 1.0;
+		limiteDeIdade = 72;
+		System.out.println("\n[VOCE SELECIONOU O BANCO BRADESCO]");
+		ComissaoCorretor();
+	}
+
+	public void bancoItau() {
+		porcentagemComissao = 4.0;
+		limiteDeIdade = 74;
+		System.out.println("\n[VOCE SELECIONOU O BANCO ITAU");
+		ComissaoCorretor();
+	}
+	
+	public void bancoDaycoval() {
+		porcentagemComissao = 3.5;
+		limiteDeIdade = 75;
+		System.out.println("\n[VOCE SELECIONOU O BANCO DAYCOVAL");
+		ComissaoCorretor();
+	}
+	
+	public void bancoOle() {
+		porcentagemComissao = 2.8;
+		limiteDeIdade = 73;
+		System.out.println("\n[VOCE SELECIONOU O BANCO OLE");
+		ComissaoCorretor();
+	}
+	
+	public void bancoBMG() {
+		porcentagemComissao = 4.5;
+		limiteDeIdade = 74;
+		System.out.println("\n[VOCE SELECIONOU O BANCO BMG");
+		ComissaoCorretor();
+	}
+	
+	public void bancoPAN() {
+		porcentagemComissao = 4.0;
+		limiteDeIdade = 75;
+		System.out.println("\n[VOCE SELECIONOU O BANCO PAN");
+		ComissaoCorretor();
+	}
+	
 
 	public void DadosDoCliente() {
 		System.out.println("\n:::::::::::::::::::::::::::::::");
@@ -95,6 +141,11 @@ public class Contrato {
 	public double CalcularContratoRefinanciamento() {
 		return valorLiquido = parcela / fator - valorSaldoDevedor;
 	}
+	
+	public double ComissaoCorretor() {
+		comissao = porcentagemComissao * valorLiquido;
+		return comissao;
+	}
 
 	public void Resultado() {
 		System.out.println();
@@ -122,10 +173,12 @@ public class Contrato {
 		System.out.println("$$$$$$$$$$ [ VALORES CORRETOR ] $$$$$$$$$$");
 		System.out.println("::::::::::::::::::::::::::::::::::::::::::");
 		System.out.println("..........................................");
-		System.out.println("> PORCENTAGEM DA COMISSAO: ");
-		System.out.println("> VALOR DA COMISSÃO DO CORRETOR: ");
+		System.out.println("> PORCENTAGEM DA COMISSAO: " + porcentagemComissao);
+		System.out.println(String.format("> VALOR DA COMISSÃO DO CORRETOR: R$%.2f", ComissaoCorretor()));
 		System.out.println("\n\n:::: FIM DA SIMULACAO ::::");
 		keyboard.close();
 	}
+	
+	
 
 }
