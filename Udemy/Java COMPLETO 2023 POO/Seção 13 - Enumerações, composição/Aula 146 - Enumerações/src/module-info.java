@@ -4,5 +4,5 @@
 /**
  * 
  */
-module aula {
+module enum2 {
 }
