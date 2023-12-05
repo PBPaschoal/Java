@@ -3,12 +3,13 @@ package revisandomeuaprendizado;
 import java.util.Locale;
 import java.util.Scanner;
 
+import entities.Product;
+
 public class Resumo {
 
 	public static void main(String[] args) {
-
-		Scanner keyboard = new Scanner(System.in);
 		Locale.setDefault(Locale.US);
+		Scanner keyboard = new Scanner(System.in);
 
 		System.out.print("Informe um numero: ");
 		int A = keyboard.nextInt();
@@ -37,10 +38,10 @@ public class Resumo {
 
 		System.out.println("----------------");
 		System.out.println(
-				" 1 = Domingo\n 2 = Segunda-feira\n 3 = Terça-feira\n 4 = Quarta-feira\n 5 = Quinta-feira\n 6 = Sexta-feira\n 7 = Sabado");
+				" 1 = Domingo - 2 = Segunda-feira - 3 = Terça-feira - 4 = Quarta-feira - 5 = Quinta-feira - 6 = Sexta-feira - 7 = Sabado");
 
 		do {
-			System.out.println("\nQue dia eh hoje?");
+			System.out.println("Que dia eh hoje?");
 			dia = keyboard.nextInt();
 			switch (dia) {
 			case 1:
@@ -68,25 +69,53 @@ public class Resumo {
 				System.out.println("Invalido");
 				break;
 			}
+
 		} while (dia > 7);
-		
+
 		System.out.println("----------------");
 		System.out.println("Vamos fazer a tabuada de quais valores?");
 		System.out.print("Primeiro valor: ");
 		int primeiroValor = keyboard.nextInt();
+		keyboard.nextLine();
 		System.out.print("Segundo valor: ");
 		int segundoValor = keyboard.nextInt();
-		
-		for(int i = 0; i <= 10; i++) {
+		keyboard.nextLine();
+
+		for (int i = 0; i <= 10; i++) {
 			System.out.println(primeiroValor + " x " + i + " = " + primeiroValor * i);
 		}
 		System.out.println("----------------");
-		for(int i = 0; i <= 10; i++) {
+		for (int i = 0; i <= 10; i++) {
 			System.out.println(segundoValor + " x " + i + " = " + segundoValor * i);
 		}
+
+		System.out.println("----------------");
+		System.out.println("Vamos contar ate quanto?");
+		int contador = keyboard.nextInt();
+		int contando = 0;
+		while (contando <= contador) {
+			System.out.println(contando);
+			contando++;
+		}
+		
+		System.out.println("----------------");
+		System.out.print("Informe o nome do produto: ");
+		keyboard.nextLine();
+		String name = keyboard.nextLine();
+		System.out.print("Informe o preco do produto: R$ ");
+		double price = keyboard.nextDouble();
+		keyboard.nextLine();
+		System.out.print("Informe a quantidade do produto: ");
+		int quantity = keyboard.nextInt();
+		
+		Product product = new Product(name, price, quantity);
+		
+		System.out.println();
+		System.out.println("----------------");
+		System.out.println("Voce tem " + product);
 		
 		
-		
+
 		keyboard.close();
 
 	}
