@@ -97,7 +97,7 @@ public class Resumo {
 			System.out.println(contando);
 			contando++;
 		}
-		
+
 		System.out.println("----------------");
 		System.out.print("Informe o nome do produto: ");
 		keyboard.nextLine();
@@ -107,14 +107,40 @@ public class Resumo {
 		keyboard.nextLine();
 		System.out.print("Informe a quantidade do produto: ");
 		int quantity = keyboard.nextInt();
-		
+
 		Product product = new Product(name, price, quantity);
-		
+
 		System.out.println();
 		System.out.println("----------------");
 		System.out.println("Voce tem " + product);
+
+		System.out.println("----------------");
+		System.out.println("Quantas vezes deseja repetir?");
+		int n = keyboard.nextInt();
+		int[] vect = new int[n];
+
+		for (int i = 0; i < vect.length; i++) {
+			System.out.print("Informe um numero: ");
+			vect[i] = keyboard.nextInt();
+		}
+
+		System.out.println("----------------");
+		for (int i = 0; i < vect.length; i++) {
+			if (vect[i] % 2 == 0) {
+				System.out.println("Numero PAR: " + vect[i]);
+			} else {
+				System.out.println("Numero IMPAR: " + vect[i]);
+			}
+		}
 		
-		
+		System.out.println();
+		System.out.println("----------------");
+		System.out.println("Contagem: ");
+		int[] numeros = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+
+        for (int numero : numeros) {
+            System.out.print(numero + " ");
+        }
 
 		keyboard.close();
 
