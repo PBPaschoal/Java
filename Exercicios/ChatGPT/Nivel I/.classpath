@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="CalculadoraDeMedia/src"/>
+	<classpathentry kind="src" path="CalculadoraSimples/src"/>
+	<classpathentry kind="src" path="ContagemRegressiva/src"/>
+	<classpathentry kind="src" path="ConversorDeTemperaturas/src"/>
+	<classpathentry kind="src" path="FatorialDeUmNumero/src"/>
+	<classpathentry kind="src" path="ImparPar/src"/>
+	<classpathentry kind="src" path="SequenciaDeFibonacci/src"/>
+	<classpathentry kind="src" path="SomaNumeros/src"/>
+	<classpathentry kind="src" path="Tabuada/src"/>
+	<classpathentry kind="src" path="VerificarUmAnoBissexto/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
