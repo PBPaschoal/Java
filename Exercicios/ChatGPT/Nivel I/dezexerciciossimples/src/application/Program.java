@@ -4,6 +4,8 @@
  * Peça ao usuário para inserir três notas, calcule a média e exiba o resultado.
  * Exercicio 3) Área do Retângulo:
  * Solicite a base e a altura de um retângulo e calcule sua área.
+ * Exercicio 4) Conversão de Temperatura:
+ * Peça ao usuário para inserir uma temperatura em Celsius e converta-a para Fahrenheit. A fórmula é: F = (C * 9/5) + 32.
  */
 
 package application;
@@ -47,7 +49,14 @@ public class Program {
 		double altura = keyboard.nextDouble();
 		
 		double retangulo = base * altura;
-		System.out.println("Retangulo: " + retangulo);
+		System.out.printf("Retangulo: %.2f", retangulo);
+		
+		System.out.println("------------");
+		System.out.println("Exercicio 4:");
+		System.out.println("Informe a temperatura em Celsius: ");
+		double celsius = keyboard.nextDouble();
+		double fahrenheit = (celsius * 9 / 5) + 32;
+		System.out.printf("Conversão de temperatura para Fahrenheit: %.2f", fahrenheit);
 		
 		keyboard.close();
 
