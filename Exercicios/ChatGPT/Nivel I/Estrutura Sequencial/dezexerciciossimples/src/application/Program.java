@@ -133,9 +133,9 @@ public class Program {
 
 		if (imc >= 17.0 && imc <= 18.49) {
 			System.out.printf("Seu IMC: %.2f e esta abaixo do peso.", imc);
-		} if (imc >= 18.50 && imc <= 24.99) {
+		} else if (imc >= 18.50 && imc <= 24.99) {
 			System.out.printf("Seu IMC: %.2f normal.", imc);
-		} if(imc >= 25.00 && imc <= 29.90) {
+		} else if(imc >= 25.00 && imc <= 29.90) {
 			System.out.printf("Seu IMC: %.2f e esta acima do peso.", imc);
 		}
 
