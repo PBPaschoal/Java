@@ -25,10 +25,36 @@
 
 package application;
 
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Department;
+import entities.Worker;
+import entities.enums.WorkerLevel;
+
 public class Program {
 
 	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner keyboard = new Scanner(System.in);
+
+		System.out.print("Enter department's name: ");
+		String departmentName = keyboard.nextLine();
+		System.out.print("Enter worker data:");
+		System.out.print("Name: ");
+		String workerName = keyboard.nextLine();
+		System.out.print("Level:  ");
+		String workerLevel = keyboard.nextLine();
+		System.out.print("Base salary: ");
+		double baseSalary = keyboard.nextDouble();
+		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary,
+				new Department(departmentName));
 		
+		System.out.print("How many contracts to this worker? ");
+		int n = keyboard.nextInt();
+
+		keyboard.close();
 
 	}
 
