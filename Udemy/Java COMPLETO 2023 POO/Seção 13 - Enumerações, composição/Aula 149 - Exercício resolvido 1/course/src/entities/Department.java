@@ -3,8 +3,8 @@ package entities;
 public class Department {
 
 	private String name;
-
-	public Department(){
+	
+	public Department() {
 	}
 
 	public Department(String name) {
@@ -15,8 +15,7 @@ public class Department {
 		return name;
 	}
 
-	public String setName() {
-		return name;
+	public void setName(String name) {
+		this.name = name;
 	}
-
 }
