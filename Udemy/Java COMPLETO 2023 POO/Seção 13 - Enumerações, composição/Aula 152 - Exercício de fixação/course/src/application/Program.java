@@ -67,7 +67,7 @@ public class Program {
 
 		Order order = new Order(new Date(), status, client);
 
-		System.out.println("How many items to this order? ");
+		System.out.print("How many items to this order? ");
 		int N = keyboard.nextInt();
 		for (int i = 1; i <= N; i++) {
 			System.out.println("Enter #" + i + " item data:");
