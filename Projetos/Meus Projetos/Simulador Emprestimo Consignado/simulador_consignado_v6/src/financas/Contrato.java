@@ -143,7 +143,7 @@ public class Contrato {
 	}
 	
 	public double ComissaoCorretor() {
-		comissao = porcentagemComissao * valorLiquido;
+		comissao = porcentagemComissao * valorLiquido / 100;
 		return comissao;
 	}
 
