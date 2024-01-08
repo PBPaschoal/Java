@@ -19,23 +19,134 @@ public class Contrato {
 	private char sexoCliente;
 	private String nomeCliente;
 	private String cpfCliente;
+	
+	public Contrato() {
+	}
 
 	public Contrato(Scanner keyboard) {
 		this.keyboard = keyboard;
+	}
+	
+	public Scanner getKeyboard() {
+		return keyboard;
+	}
+
+	public void setKeyboard(Scanner keyboard) {
+		this.keyboard = keyboard;
+	}
+
+	public byte getIdadeCliente() {
+		return idadeCliente;
+	}
+
+	public void setIdadeCliente(byte idadeCliente) {
+		this.idadeCliente = idadeCliente;
+	}
+
+	public byte getOperacao() {
+		return operacao;
+	}
+
+	public void setOperacao(byte operacao) {
+		this.operacao = operacao;
+	}
+
+	public byte getResposta() {
+		return resposta;
+	}
+
+	public void setResposta(byte resposta) {
+		this.resposta = resposta;
+	}
+
+	public byte getPrazo() {
+		return prazo;
+	}
+
+	public void setPrazo(byte prazo) {
+		this.prazo = prazo;
+	}
+	
+	public byte getLimiteDeIdade() {
+		return limiteDeIdade;
+	}
+
+	public void setLimiteDeIdade(byte limiteDeIdade) {
+		this.limiteDeIdade = limiteDeIdade;
+	}
+
+	public double getPorcentagemComissao() {
+		return porcentagemComissao;
+	}
+
+	public void setPorcentagemComissao(double porcentagemComissao) {
+		this.porcentagemComissao = porcentagemComissao;
+	}
+
+	public double getComissao() {
+		return comissao;
+	}
+
+	public void setComissao(double comissao) {
+		this.comissao = comissao;
 	}
 
 	public double getParcela() {
 		return parcela;
 	}
 
-	public byte getPrazo() {
-		return prazo;
+	public void setParcela(double parcela) {
+		this.parcela = parcela;
 	}
-	
+
 	public double getValorLiquido() {
 		return valorLiquido;
 	}
-	
+
+	public void setValorLiquido(double valorLiquido) {
+		this.valorLiquido = valorLiquido;
+	}
+
+	public double getValorSaldoDevedor() {
+		return valorSaldoDevedor;
+	}
+
+	public void setValorSaldoDevedor(double valorSaldoDevedor) {
+		this.valorSaldoDevedor = valorSaldoDevedor;
+	}
+
+	public double getFator() {
+		return fator;
+	}
+
+	public void setFator(double fator) {
+		this.fator = fator;
+	}
+
+	public char getSexoCliente() {
+		return sexoCliente;
+	}
+
+	public void setSexoCliente(char sexoCliente) {
+		this.sexoCliente = sexoCliente;
+	}
+
+	public String getNomeCliente() {
+		return nomeCliente;
+	}
+
+	public void setNomeCliente(String nomeCliente) {
+		this.nomeCliente = nomeCliente;
+	}
+
+	public String getCpfCliente() {
+		return cpfCliente;
+	}
+
+	public void setCpfCliente(String cpfCliente) {
+		this.cpfCliente = cpfCliente;
+	}
+
 	public void bancoBradesco() {
 		porcentagemComissao = 1.0;
 		limiteDeIdade = 72;

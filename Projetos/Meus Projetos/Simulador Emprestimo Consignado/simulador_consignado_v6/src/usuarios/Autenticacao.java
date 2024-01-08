@@ -11,12 +11,71 @@ public class Autenticacao {
 	private String repetirUsuario;
 	private String repetirSenha;
 	private byte erros;
+	
+	public Autenticacao() {
+	}
 
 	public Autenticacao(Scanner scanner) {
 		this.keyboard = scanner;
 		this.erros = 0;
 		this.repetirUsuario = null;
         this.repetirSenha = null;
+	}
+
+	public Scanner getKeyboard() {
+		return keyboard;
+	}
+
+	public void setKeyboard(Scanner keyboard) {
+		this.keyboard = keyboard;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
+	}
+
+	public String getSenha() {
+		return senha;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+	public String getRepetirUsuario() {
+		return repetirUsuario;
+	}
+
+	public void setRepetirUsuario(String repetirUsuario) {
+		this.repetirUsuario = repetirUsuario;
+	}
+
+	public String getRepetirSenha() {
+		return repetirSenha;
+	}
+
+	public void setRepetirSenha(String repetirSenha) {
+		this.repetirSenha = repetirSenha;
+	}
+
+	public byte getErros() {
+		return erros;
+	}
+
+	public void setErros(byte erros) {
+		this.erros = erros;
 	}
 
 	public void cadastroInicial() {
