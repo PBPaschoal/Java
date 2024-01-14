@@ -14,33 +14,35 @@ public class Program {
 		
 		System.out.print("Informe um numero: ");
 		int N = keyboard.nextInt();
-		int[] vetor = new int[N];
 		
-		System.out.println();
+		Order[] vetor = new Order[N];
+		
 		for(int i = 0; i < vetor.length; i++) {
+			vetor[i] = new Order();
 			System.out.print("Digite um numero: ");
-			vetor[i] = keyboard.nextInt();
-		}
-		
-		Order order = new Order();
-		
-		int maior = vetor[0]; 
-        int menor = vetor[0];
-		
-		for(int i = 0; i < vetor.length; i++) {
-			if(vetor[i] > maior) {
-				maior = vetor[i];
-			} 
-			if(vetor[i] < menor) {
-				menor = vetor[i];
+			int numero = keyboard.nextInt();
+			vetor[i].setMaior(numero);
+			
+			if(numero < vetor[i].getMenor()) {
+				vetor[i].setMenor(numero);
 			}
 		}
 		
-		order.setMaior(maior);
-        order.setMenor(menor);
+		int maior = vetor[0].getMaior(); 
+		int menor = vetor[0].getMenor();
+		
+		
+		for(int i = 0; i < vetor.length; i++) {
+			if(vetor[i].getMaior() > maior) {
+				maior = vetor[i].getMaior();
+			} 
+			if(vetor[i].getMenor() < menor) {
+				menor = vetor[i].getMenor();
+			}
+		}
 
-        System.out.println("Maior: " + order.getMaior());
-        System.out.println("Menor: " + order.getMenor());
+        System.out.println("Maior: " + maior);
+        System.out.println("Menor: " + menor);
 		
 		keyboard.close();
 	}

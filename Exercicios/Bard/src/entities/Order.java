@@ -2,8 +2,8 @@ package entities;
 
 public class Order {
 	
-	private Integer maior;
-	private Integer menor;
+	private Integer maior = Integer.MIN_VALUE;
+	private Integer menor = Integer.MAX_VALUE;
 	
 	public Order(){
 	}
