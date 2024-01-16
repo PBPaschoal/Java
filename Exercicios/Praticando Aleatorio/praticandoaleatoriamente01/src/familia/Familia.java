@@ -13,10 +13,10 @@ public class Familia {
 
 	public Familia() {
 	}
-	
+
 	public Familia(Scanner scanner) {
-        this.scanner = scanner;
-    }
+		this.scanner = scanner;
+	}
 
 	public Familia(String pai, String mae, String irmao, String sobrinha, String amor) {
 		super();
@@ -69,7 +69,8 @@ public class Familia {
 
 	public String saudacaoPara(String pergunta, String nome) {
 		if (pergunta.toUpperCase().equals("PAI") && nome.toUpperCase().equals("LUIS")) {
-			return saudacaoPai();
+			saudacaoPai();
+			return "";
 		} else if (pergunta.toUpperCase().equals("MAE") && nome.toUpperCase().equals("CLAUDIA")) {
 			return saudacaoMae();
 		} else if ((pergunta.toUpperCase().equals("IRMAO") && nome.toUpperCase().equals("LUIS"))
@@ -91,19 +92,20 @@ public class Familia {
 		}
 	}
 
-	private String saudacaoPai() {
-		System.out.println("Oi Pai! Que bom ter você aqui!");
-		System.out.println("O que deseja conversar?");
-		System.out.println("[1] Exemplo 1");
-		System.out.println("[2] Exemplo 2");
-		int resposta03 = scanner.nextInt();
-		if(resposta03 == 1) {
-			System.out.println("Show, exemplo 1");
-		} else {
-			System.out.println("Exemplo 2");
-		}
-		scanner.close();
-		return "Programa finalizado.";
+	private void saudacaoPai() {
+		System.out.println("Oi Pai! Que bom ter o senhor aqui!");
+		System.out.println("Como o senhor esta?");
+		String resposta03 = scanner.nextLine();
+		
+		if (resposta03.toUpperCase().contains("ESTOU BEM") && resposta03.toUpperCase().contains("SAUDADES DE VOCE")) {
+            System.out.println("Que bom que esta bem pai, tambem sinto saudades de voce!");
+        } else if (resposta03.toUpperCase().contains("ESTOU BEM")) {
+            System.out.println("Que bom que está bem!");
+        } else if (resposta03.toUpperCase().contains("SAUDADES DE VOCE")) {
+            System.out.println("Entendo que sinta a minha falta, eu também sinto a sua!");
+        } else {
+            System.out.println("Opção não reconhecida. Programa continuará.");
+        }
 	}
 
 	private String saudacaoMae() {
