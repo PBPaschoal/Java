@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Logica01 {
+module NumerosPrimos02 {
 }
