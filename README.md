@@ -57,6 +57,9 @@ Sexta versão - em desenvolvimento:
 *  Um exercício simples que envolve instanciação, encapsulamento e construtor.
 * Este é um exercício que planejo aprimorar à medida que minhas habilidades melhorarem. Pretendo adicioná-lo com uma interface gráfica e mais detalhes, opções, funções, entre outros. Fique de :eyes:
 
+### Exercícios:
+Além dos exercícios dos cursos online, dos livros e das plataformas, também crio alguns exercícios utilizando o ChatGPT. Peço ao mesmo para elaborar um problema, e eu desenvolvo a solução.
+
 
 # Leituras (Estudando Java):
 * Documentação Java: [Oracle](https://docs.oracle.com/en/java/)
