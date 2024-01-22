@@ -15,7 +15,7 @@ public class SomadosNumerosPares {
 		
 		int soma = 0;
 		
-		System.out.print("Informe um numero: ");
+		System.out.print("Informe um numero inteiro positivo: ");
 		int numero = keyboard.nextInt();
 		
 		for(int i = 0; i <= numero; i++) {
