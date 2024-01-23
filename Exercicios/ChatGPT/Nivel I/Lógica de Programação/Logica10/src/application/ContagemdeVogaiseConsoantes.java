@@ -6,6 +6,7 @@
 
 package application;
 
+import java.text.Normalizer;
 import java.util.Scanner;
 
 public class ContagemdeVogaiseConsoantes {
@@ -15,7 +16,7 @@ public class ContagemdeVogaiseConsoantes {
 		Scanner keyboard = new Scanner(System.in);
 
 		System.out.print("Informe uma palavra ou frase: ");
-		String texto = keyboard.nextLine().toLowerCase();
+		String texto = keyboard.nextLine().toLowerCase().replaceAll("\\s", "");
 
 		int contadorVogais = contarVogais(texto);
 		int contarConsoantes = contarConsoantes(texto);
@@ -26,13 +27,16 @@ public class ContagemdeVogaiseConsoantes {
 		keyboard.close();
 	}
 
-	private static int contarVogais(String frase) {
+	private static int contarVogais(String texto) {
 		int contador = 0;
+		
+		texto = Normalizer.normalize(texto, Normalizer.Form.NFD);
+        texto = texto.replaceAll("[^\\p{ASCII}]", "");
 
-		for (int i = 0; i < frase.length(); i++) {
-			char caractere = frase.charAt(i);
+		for (int i = 0; i < texto.length(); i++) {
+			char caractere = texto.charAt(i);
 
-			if ("aeiou".contains(String.valueOf(caractere))) {
+			if ("aeiou".indexOf(caractere) != -1) {
 				contador++;
 			}
 		}
@@ -40,13 +44,16 @@ public class ContagemdeVogaiseConsoantes {
 		return contador;
 	}
 	
-	private static int contarConsoantes(String frase) {
+	private static int contarConsoantes(String texto) {
 		int contador = 0;
+		
+		texto = Normalizer.normalize(texto, Normalizer.Form.NFD);
+        texto = texto.replaceAll("[^\\p{ASCII}]", "");
 
-		for (int i = 0; i < frase.length(); i++) {
-			char caractere = frase.charAt(i);
+		for (int i = 0; i < texto.length(); i++) {
+			char caractere = texto.charAt(i);
 
-			if ("bcdfghjklmnpqrstvwxyz".contains(String.valueOf(caractere))) {
+			if ("bcdfghjklmnpqrstvwxyz".indexOf(caractere) != -1) {
 				contador++;
 			}
 		}
