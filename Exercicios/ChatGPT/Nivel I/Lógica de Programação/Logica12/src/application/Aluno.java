@@ -68,8 +68,9 @@ public class Aluno {
         return nome;
     }
 
-    public double calcularMedia() {
+    /*public double calcularMedia() {
+    	double media = nota + nota / quantidade;
         return nota;
-    }
+    } ajustar essa parte*/
 
 }
