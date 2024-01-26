@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Aluno {
 	
 	private String nome;
-	private Double nota;
+	private Double nota, nota2;
 	
 	public Aluno() {
 	}
@@ -60,7 +60,7 @@ public class Aluno {
     public static void exibirMediasDosAlunos(Aluno[] alunos) {
         System.out.println("\nMédias dos Alunos:");
         for (Aluno aluno : alunos) {
-            System.out.println(aluno.getNome() + ": " + aluno.calcularMedia());
+        	System.out.printf("%s: %.2f\n", aluno.getNome(), aluno.calcularMedia(alunos.length));
         }
     }
 
@@ -68,9 +68,9 @@ public class Aluno {
         return nome;
     }
 
-    /*public double calcularMedia() {
-    	double media = nota + nota / quantidade;
-        return nota;
-    } ajustar essa parte*/
+    public double calcularMedia(int quantidade) {
+    	double media = nota / quantidade;
+        return media;
+    }
 
 }
