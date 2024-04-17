@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\paulo.bruno\Downloads\Exercícios Beecrowd\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2437650006.index
+3413270776.index
