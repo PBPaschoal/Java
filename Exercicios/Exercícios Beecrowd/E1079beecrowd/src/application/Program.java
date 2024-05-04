@@ -26,10 +26,24 @@ public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner keyboard = new Scanner(System.in);
+		double values = 0.0;
 		int N = keyboard.nextInt();
-		for(int i = 0; i < N; i++) {
-			string[] vetor = new string[i];
-		}
+		keyboard.nextLine(); // Limpa o buffer
+
+        // Loop para calcular a média para cada valor de N
+        for (int i = 0; i < N; i++) {
+            // Lê a linha contendo três valores separados por espaço
+            String[] valores = keyboard.nextLine().split(" ");
+
+            // Converte os valores para double e calcula a média ponderada
+            double valor1 = Double.parseDouble(valores[0]);
+            double valor2 = Double.parseDouble(valores[1]);
+            double valor3 = Double.parseDouble(valores[2]);
+            double media = (valor1 * 2 + valor2 * 3 + valor3 * 5) / (2 + 3 + 5);
+
+            // Imprime a média formatada com uma casa decimal
+            System.out.printf("%.1f%n", media);
+        }
 		keyboard.close();
 	}
 
