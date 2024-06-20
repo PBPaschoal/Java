@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(130, 10, 209);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura da tela */
+    flex-direction: column; /* Alinha o conteúdo em coluna */
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px; /* Adiciona espaço entre o título e o formulário */
+}
+
+form {
+    max-width: 300px;
+    width: 100%; /* Garante que o formulário se ajuste ao tamanho máximo */
+    padding: 1em;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 1em #222;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+label {
+    margin-bottom: .5em;
+    color: #333333;
+    display: block;
+}
+
+input {
+    border: 1px solid #CCCCCC;
+    padding: .5em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
