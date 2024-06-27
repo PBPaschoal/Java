@@ -5,7 +5,7 @@
     <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
-    <h1>Login</h1>
+    <h1>Paschoal System</h1>
     <form th:action="@{/login}" method="post">
         <div>
             <label for="username">Usuário:</label>
@@ -16,7 +16,7 @@
             <input type="password" id="password" name="password">
         </div>
         <div>
-            <button type="submit">Logar</button>
+            <button type="submit">Entrar</button>
         </div>
     </form>
     <p th:if="${errorMessage}" th:text="${errorMessage}" style="color: red;"></p>

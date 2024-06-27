@@ -2,34 +2,52 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-	<title>Register Page</title>
-	<link rel="stylesheet" th:href="@{/css/style.css}">
+    <title>Register Page</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <script>
+        function validateForm() {
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirmPassword").value;
+            var errorMessage = document.getElementById("error-message");
+            
+            if (password !== confirmPassword) {
+                errorMessage.textContent = "As senhas não coincidem!";
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 
 <body>
-	<h1>Preencha os dados para registrar:</h1>
-	<form th:action="@{/register}" method="post">
-		<div>
-			<label for="">Nome completo:</label>
-			<input type="text" id="username" name="username">
-		</div>
-		<div>
-			<label for="username">Usuário:</label>
-			<input type="text" id="username" name="username">
-		</div>
-		<div>
-			<label for="password">Senha:</label>
-			<input type="password" id="password" name="password">
-		</div>
-		<div>
-			<label for="">Repetir senha:</label>
-			<input type="password" id="password" name="password">
-		</div>
-		<div>
-			<button type="submit">Registrar</button>
-		</div>
-	</form>
-	<p th:if="${message}" th:text="${message}" style="color: green;"></p> <!-- Exibe a mensagem de sucesso -->
+    <h2>Paschoal System</h2>
+    <h1>Preencha os dados para registrar:</h1>
+    <form th:action="@{/register}" method="post" onsubmit="return validateForm()">
+        <div>
+            <label for="fullname">Nome completo:</label>
+            <input type="text" id="fullname" name="fullname">
+        </div>
+        <div>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="confirmPassword">Repetir senha:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+        </div>
+        <div>
+            <button type="submit">Registrar</button>
+        </div>
+        <div>
+            <a th:href="@{/login}" class="button">Voltar para acessar</a>
+        </div>
+    </form>
+    <p id="error-message" style="color: red;"></p>
+    <p th:if="${message}" th:text="${message}" style="color: green;"></p> <!-- Exibe a mensagem de sucesso -->
 </body>
 
 </html>

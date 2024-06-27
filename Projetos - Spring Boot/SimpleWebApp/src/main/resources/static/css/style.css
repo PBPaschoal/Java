@@ -10,9 +10,10 @@ body {
     flex-direction: column; /* Alinha o conteúdo em coluna */
 }
 
-h1 {
+h1, h2 {
     color: rgb(255, 255, 255);
-    margin-bottom: 20px; /* Adiciona espaço entre o título e o formulário */
+    text-align: center;
+    margin-bottom: 20px; /* Adiciona espaço entre os títulos e o formulário */
 }
 
 form {
@@ -57,11 +58,8 @@ button:hover {
 }
 
 div.registro-div {
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px;
     background-color: rgb(255, 255, 255);
-    border-radius: 8px;
+    border-radius: 3px;
     box-shadow: 0 0 1em #222;
 }
