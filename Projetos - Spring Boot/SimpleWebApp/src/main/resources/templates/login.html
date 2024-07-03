@@ -5,7 +5,7 @@
     <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
-    <h1>Paschoal System</h1>
+    <h1>Login</h1>
     <form th:action="@{/login}" method="post">
         <div>
             <label for="username">Usuário:</label>
@@ -16,12 +16,12 @@
             <input type="password" id="password" name="password">
         </div>
         <div>
-            <button type="submit">Entrar</button>
+            <button type="submit">Logar</button>
         </div>
     </form>
     <p th:if="${errorMessage}" th:text="${errorMessage}" style="color: red;"></p>
-	<div class="registro-div">
-    	<p>Não tem uma conta? <a th:href="@{/register}">Registre-se aqui</a></p>
-	</div>
+    <div>
+        <p>Não tem uma conta? <a th:href="@{/register}">Registre-se aqui</a></p>
+    </div>
 </body>
 </html>
