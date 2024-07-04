@@ -1,0 +1,13 @@
+package ex03;
+
+public class AreaRetangulo {
+
+	public static void main(String[] args) {
+		int largura = 25;
+		int altura = 63;
+		int area = largura * altura;
+		System.out.println("Area = " + area);
+
+	}
+
+}
