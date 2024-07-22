@@ -63,3 +63,7 @@ div.registro-div {
     border-radius: 3px;
     box-shadow: 0 0 1em #222;
 }
+
+.msg-erro p {
+	color: rgb(255, 255, 255);
+}
