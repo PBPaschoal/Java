@@ -1,23 +1,12 @@
 # Java
-Junho de 2023 - Esse repositório será para todos os meus atuais estudos sobre Java!
+Junho de 2024 - revisão - Esse repositório será para todos os meus atuais estudos sobre Java!
 * Observação: Em muitos exercícios, eu poderia incluir algumas melhorias nos programas, mas estou focando apenas no que o exercício requer, sem mais adições, a fim de concentrar-me estritamente no que é pedido. Nos programas que desenvolvo de forma independente (que eu chamo de "exercícios livres"), por outro lado, costumo acrescentar funcionalidades adicionais além do que é solicitado. Por exemplo, se o programa pede um cálculo X com um resultado específico, nos programas livres, eu posso incluir um limite para esse cálculo, caso o valor de entrada seja negativo. Quero esclarecer que estou ciente de que um programa poderia ter mais detalhes, mas, nos exercícios dos cursos, procuro seguir estritamente as instruções, enquanto nos exercícios encontrados na internet ou criados por mim, incluo funcionalidades adicionais além do que é solicitado.
 
 ## Curso em andamento
 * Curso em vídeo - Java Básico | Professor: Gustavo Guanabara
-  Cursando Setembro 2023 
 * Curso em vídeo - Java POO | Professor: Gustavo Guanabara
   Próximo
-* Udemy - Java COMPLETO 2023 Programação Orientada a Objetos +Projetos | Professor: Nelio Alves
-  Cursando Agosto 2023 - até o momento
-
-##### Observação:
-* No momento estou estudando também o curso de [Ciência da Computação - Harvard](https://github.com/PBPaschoal/Ciencia-da-Computacao). 
-* Java Básico
-* Java POO
-* Modelagem de Dados UML (Análise & Projeto Orientado a Objetos)
-* O curso completo de Banco de Dados SQL
-* Inglês Extremo
-E por isso estou demorando um pouco nos outros cursos/livros.
+* Udemy - Java COMPLETO 2024 Programação Orientada a Objetos +Projetos | Professor: Nelio Alves4
 
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20%20video%20Java%20Basico.JPG?raw=true" alt="Print aula Curso em video" width="200px">
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20Video%20Java%20POO.JPG?raw=true" alt="Print aula Curso em video" width="200px">
