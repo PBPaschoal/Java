@@ -24,7 +24,18 @@ public class Program {
 		
 		System.out.print("Quantos numeros voce vai digitar? ");
 		int quantidade = keyboard.nextInt();
-		int vect
+		int[] numeros = new int[quantidade];
+		
+		for(int i = 0; i < numeros.length; i++) {
+			numeros[i] = keyboard.nextInt();
+		}
+		
+		System.out.println("NUMEROS NEGATIVOS:");
+		for(int i = 0; i < numeros.length; i++) {
+			if(numeros[i] < 0) {
+				System.out.println(numeros[i]);
+			}
+		}
 		
 		keyboard.close();
 	}
