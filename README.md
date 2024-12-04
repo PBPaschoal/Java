@@ -12,7 +12,7 @@ Dezembro de 2024 - revisão - Esse repositório será para todos os meus atuais 
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Udemy%20Java%20Completo%20Nelio%20Alves.JPG?raw=true" alt="Print aula Udemy" width="200px">
 
 # Progresso
-[Java]()
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Progresso/java-progresso-atualmente.jpg?raw=true" alt="Meu progresso atual" width="200px">
 
 # Projetos
 * Nessa pasta você irá encontrar os meus projetos pessoais, onde desenvolvo sozinho e vou melhorando (atualizando) os programas conforme o meu aprendizado vai avançando.
