@@ -1,16 +1,18 @@
 # Java
-Junho de 2024 - revisão - Esse repositório será para todos os meus atuais estudos sobre Java!
+Dezembro de 2024 - revisão - Esse repositório será para todos os meus atuais estudos sobre Java!
 * Observação: Em muitos exercícios, eu poderia incluir algumas melhorias nos programas, mas estou focando apenas no que o exercício requer, sem mais adições, a fim de concentrar-me estritamente no que é pedido. Nos programas que desenvolvo de forma independente (que eu chamo de "exercícios livres"), por outro lado, costumo acrescentar funcionalidades adicionais além do que é solicitado. Por exemplo, se o programa pede um cálculo X com um resultado específico, nos programas livres, eu posso incluir um limite para esse cálculo, caso o valor de entrada seja negativo. Quero esclarecer que estou ciente de que um programa poderia ter mais detalhes, mas, nos exercícios dos cursos, procuro seguir estritamente as instruções, enquanto nos exercícios encontrados na internet ou criados por mim, incluo funcionalidades adicionais além do que é solicitado.
 
 ## Curso em andamento
 * Curso em vídeo - Java Básico | Professor: Gustavo Guanabara
 * Curso em vídeo - Java POO | Professor: Gustavo Guanabara
-  Próximo
-* Udemy - Java COMPLETO 2024 Programação Orientada a Objetos +Projetos | Professor: Nelio Alves4
+* Udemy - Java COMPLETO 2024 Programação Orientada a Objetos +Projetos | Professor: Nelio Alves4 | 43% dia 03/12/2024.
 
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20%20video%20Java%20Basico.JPG?raw=true" alt="Print aula Curso em video" width="200px">
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20Video%20Java%20POO.JPG?raw=true" alt="Print aula Curso em video" width="200px">
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Udemy%20Java%20Completo%20Nelio%20Alves.JPG?raw=true" alt="Print aula Udemy" width="200px">
+
+# Progresso
+[Java](https://media.licdn.com/dms/image/v2/D4D22AQHsIGzDYNYjPQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1722809980432?e=1736380800&v=beta&t=p2nlHgBjXYhwHRXM6qZ-KdwlsZ82qLY7wtskjNxxVIQ)
 
 # Projetos
 * Nessa pasta você irá encontrar os meus projetos pessoais, onde desenvolvo sozinho e vou melhorando (atualizando) os programas conforme o meu aprendizado vai avançando.
