@@ -5,14 +5,14 @@ Dezembro de 2024 - revisão - Esse repositório será para todos os meus atuais 
 ## Curso em andamento
 * Curso em vídeo - Java Básico | Professor: Gustavo Guanabara
 * Curso em vídeo - Java POO | Professor: Gustavo Guanabara
-* Udemy - Java COMPLETO 2024 Programação Orientada a Objetos +Projetos | Professor: Nelio Alves4 | 43% dia 03/12/2024.
+* Udemy - Java COMPLETO 2024 Programação Orientada a Objetos +Projetos | Professor: Nelio Alves4 | 42% dia 03/12/2024.
 
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20%20video%20Java%20Basico.JPG?raw=true" alt="Print aula Curso em video" width="200px">
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Curso%20em%20Video%20Java%20POO.JPG?raw=true" alt="Print aula Curso em video" width="200px">
 <img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Cursos/Udemy%20Java%20Completo%20Nelio%20Alves.JPG?raw=true" alt="Print aula Udemy" width="200px">
 
 # Progresso
-<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Progresso/java-progresso-atualmente.jpg?raw=true" alt="Meu progresso atual" width="200px">
+<img src="https://github.com/PBPaschoal/Java/blob/main/Imagens/Progresso/java-progresso-atualmente.jpg?raw=true" alt="Meu progresso atual" width="500px">
 
 # Projetos
 * Nessa pasta você irá encontrar os meus projetos pessoais, onde desenvolvo sozinho e vou melhorando (atualizando) os programas conforme o meu aprendizado vai avançando.
