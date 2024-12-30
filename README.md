@@ -31,10 +31,10 @@ Terceira versão:
 [Java](https://github.com/PBPaschoal/Java/blob/main/Udemy/Antigo/Inicio%20Java/ConsigConsulta.java)
 
 Quarta versão:
-[C#](https://github.com/PBPaschoal/CSharp/blob/main/B%C3%A1sico/ConsigConsulta.cs)
+[C#](https://github.com/PBPaschoal/CSharp/blob/main/Estudos%20Antigos/B%C3%A1sico/ConsigConsulta.cs)
 
 Quinta versão: 
-[C#](https://github.com/PBPaschoal/CSharp/blob/main/B%C3%A1sico/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
+[C#](https://github.com/PBPaschoal/CSharp/blob/main/Estudos%20Antigos/B%C3%A1sico/ConsigConsultaProgram%2003/ConsigConsultaProgram/ConsigConsulta03.cs)
 
 Sexta versão - em desenvolvimento: 
 * Com POO [Java](https://github.com/PBPaschoal/Java/tree/main/Projetos/Meus%20Projetos/Simulador%20Emprestimo%20Consignado)
