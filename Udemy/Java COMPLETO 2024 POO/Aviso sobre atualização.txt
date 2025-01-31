@@ -1,0 +1,7 @@
+Aviso:
+
+O curso teve atualização.
+Então a Seção 14 - Herança e polimorfismo agora é Tratamento de exceções e o de Herança e polimorfismo está na Seção 13.
+Print em anexo!
+
+Irei continuar aqui nesse pasta quando alcançar (a minha revisão desde o inicio - 2025) a seção de Herança e polimorfismo.
